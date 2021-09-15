@@ -1,0 +1,23 @@
+.section-partners {
+    background: linear-gradient(100deg, rgb(20, 30, 48) 0%, rgb(36, 59, 85) 100%);
+    padding: 100px 50px;
+    .swiper-wrapper {
+        // overflow: hidden;
+        .swiper-slide {
+            img {
+                filter: invert(1) grayscale(1) brightness(20);
+            }
+        }
+    }
+}
+.swiper-wrapper {
+    -webkit-transition-timing-function:linear!important; 
+    -o-transition-timing-function:linear!important;
+    transition-timing-function:linear!important; 
+  }
+
+@media (max-width: 576px) {
+    .section-partners {
+        padding: 30px 20px;
+    }
+}

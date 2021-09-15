@@ -73,5 +73,4 @@ menu.addEventListener('click', (event) => {
 
 
 
-
 import '../scss/app.scss'

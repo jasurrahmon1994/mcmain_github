@@ -52,14 +52,14 @@
 		@media (max-width: 400px) {
 			padding: 0 20px;
 		}
-		&__wrapper {
-		}
+		// &__wrapper {
+		// }
 		.member {
-			.shadow {
-			}
+			// .shadow {
+			// }
 
-			&__wrapper {
-			}
+			// &__wrapper {
+			// }
 			&__photo {
 				padding: 30px 0;
 				position: relative;
@@ -129,13 +129,12 @@
 				}
 				&-job {
 					margin: 4px 0;
-					margin-bottom: 22px;
+					margin-bottom: 15px;
 					font-style: normal;
 					font-weight: normal;
-					font-size: 22px;
-					line-height: 26px;
+					font-size: 20px;
+					line-height: 1.2;
 					color: #646464;
-					height: 40px;
 
 					@media (max-width: 900px) {
 						font-size: 17px;
@@ -186,3 +185,9 @@
 		}
 	}
 }
+
+.swiper-wrapper {
+    -webkit-transition-timing-function:linear!important; 
+    -o-transition-timing-function:linear!important;
+    transition-timing-function:linear!important; 
+  }

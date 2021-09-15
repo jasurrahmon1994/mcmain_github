@@ -199,3 +199,4 @@ styleSpina.addEventListener('click', event => {
     let type = styleSpina.getAttribute('data-filter')
     showStyle(styleBlocks, type)
 })
+

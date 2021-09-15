@@ -589,7 +589,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var axio
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var header = document.querySelector('.header');\nvar winHeight;\nwindow.addEventListener('load', function (event) {\n  // eslint-disable-next-line no-undef\n  winHeight = window.innerHeight + 200;\n});\nwindow.addEventListener('wheel', function (event) {\n  if (event.pageY > winHeight) {\n    header.classList.add('active');\n  }\n\n  if (event.pageY < winHeight) {\n    if (header.classList.contains('active')) {\n      header.classList.remove('active');\n    }\n  }\n});\n\n//# sourceURL=webpack:///./src/js/header.js?");
+eval("var header = document.querySelector('.header');\nvar winHeight;\nwindow.addEventListener('load', function (event) {\n  // eslint-disable-next-line no-undef\n  winHeight = window.innerHeight + 200;\n}); // window.addEventListener('wheel', event => {\n//   if (event.pageY > winHeight) {\n//     header.classList.add('active');\n//   }\n//   if (event.pageY < winHeight) {\n//     if (header.classList.contains('active')) {\n//       header.classList.remove('active');\n//     }\n//   }\n// })\n// window.addEventListener('scroll', () => {\n//   if (this.scrollTop >= 1) {\n//     document.querySelector('.header-bg').classList.add('active');\n//     console.log(\"working2\");\n//   } else {\n//     document.querySelector('.header-bg').classList.remove('active');\n//     console.log(\"working3\");\n//   }\n//   console.log(\"working\");\n// })\n\n//# sourceURL=webpack:///./src/js/header.js?");
 
 /***/ }),
 
