@@ -73,15 +73,14 @@
 	}
 
 	.swiper-container {
-		width: 78%;
-		padding-top: 50px;
-		padding-bottom: 50px;
+		width: 79%;
+		padding: 50px 0;
 		.swiper-slide {
 			background-position: center;
 			background-size: cover;
 			width: 250px;
 			height: 500px;
-			filter: blur(4px);
+			// filter: blur(4px);
 			transition: all 0.3s ease;
 			img {
 				display: block;
@@ -89,9 +88,9 @@
 				height: 100%;
 			}
 		}
-		.swiper-slide-active {
-			filter: unset;
-		}
+		// .swiper-slide-active {
+		// 	filter: unset;
+		// }
 		.swiper-pagination {
 			padding-top: 40px;
 			.swiper-pagination-bullet-active {

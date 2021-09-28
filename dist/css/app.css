@@ -6354,24 +6354,18 @@ html {
     position: relative;
     display: none; }
   .section-portfolio .swiper-container {
-    width: 78%;
-    padding-top: 50px;
-    padding-bottom: 50px; }
+    width: 79%;
+    padding: 50px 0; }
     .section-portfolio .swiper-container .swiper-slide {
       background-position: center;
       background-size: cover;
       width: 250px;
       height: 500px;
-      -webkit-filter: blur(4px);
-              filter: blur(4px);
       transition: all 0.3s ease; }
       .section-portfolio .swiper-container .swiper-slide img {
         display: block;
         width: 100%;
         height: 100%; }
-    .section-portfolio .swiper-container .swiper-slide-active {
-      -webkit-filter: unset;
-              filter: unset; }
     .section-portfolio .swiper-container .swiper-pagination {
       padding-top: 40px; }
       .section-portfolio .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
